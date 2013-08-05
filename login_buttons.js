@@ -5,7 +5,7 @@ if (!Accounts._loginButtons)
 var loginButtonsSession = Accounts._loginButtonsSession;
 
 Handlebars.registerHelper(
-  "loginButtons",
+  "pslLoginButtons",
   function (options) {
     if (options.hash.align === "right")
       return new Handlebars.SafeString(Template._loginButtons({align: "right"}));
