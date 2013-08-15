@@ -64,7 +64,7 @@ Template._loginButtonsLoggedInDropdownActions.allowChangingPassword = function (
 //
 
 Template._loginButtonsLoggedOutDropdown.events({
-  'click #login-buttons-password': function () {
+  'click #login-buttons-password, #login-modal-passwrds': function () {
     loginOrSignup();
   },
 
